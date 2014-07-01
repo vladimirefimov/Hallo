@@ -26,7 +26,13 @@ namespace fg
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+			int v1 = 6;
+			int v2 = 2;
+			int vv;
+
+			vv = v1 * v2;
+
+			Console.WriteLine (vv);
 		}
 	}
 }
