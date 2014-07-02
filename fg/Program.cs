@@ -26,13 +26,18 @@ namespace fg
 	{
 		public static void Main (string[] args)
 		{
-			int v1 = 6;
-			int v2 = 2;
+			Console.WriteLine ("Программа предназначена для расчёта произведения двух чисел");
+			Console.WriteLine ("-------------------------------------------------------------");
+			Console.WriteLine ("Введите значение переменной V1");
+			int v1 = int.Parse(Console.ReadLine());
+			Console.WriteLine ("------------------------------------");
+			Console.WriteLine ("Введите значение переменной V2");
+			int v2 = int.Parse(Console.ReadLine());
 			int vv;
 
 			vv = v1 * v2;
-
-			Console.WriteLine (vv);
+			Console.WriteLine ("------------------------------------");
+			Console.WriteLine ("Произведение {0} и {1} равно {2}",v1, v2, vv);
 		}
 	}
 }
